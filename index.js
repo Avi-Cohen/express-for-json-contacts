@@ -16,4 +16,4 @@ app.get("/", (req, res) => {
 
 apiController(app);
 
-app.listen(PORT, () => console.log("app is running on PORT: " + PORT));
+app.listen(PORT);
