@@ -16,4 +16,4 @@ app.get("/", (req, res) => {
 
 apiController(app);
 
-app.listen(PORT);
+app.listen(PORT,()=>console.log('running'));
